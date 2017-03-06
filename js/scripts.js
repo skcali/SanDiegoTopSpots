@@ -11,7 +11,7 @@ $(document).ready(function () {
        $(".mapsLink").click( function () {
          var lat = $(this).data('lat');
          var lon = $(this).data('lon');
-         window.open("https://www.google.com/maps/preview/@" + lat + "," + lon + ",12z");
+         window.open("https://www.google.com/maps/preview/@" + lat + "," + lon + ",18z");
        });
      });
   });
